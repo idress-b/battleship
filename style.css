@@ -1,0 +1,18 @@
+.board{
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(10, 1fr);
+    width:fit-content;
+}
+
+.board div{
+    border: 1px solid black;
+}
+
+.project:hover{
+    background-color: aqua;
+}
+
+.blue{
+    background-color: rgba(0, 255, 255, 0.32);
+}

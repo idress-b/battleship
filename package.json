@@ -1,0 +1,23 @@
+{
+  "name": "battleship",
+  "version": "1.0.0",
+  "description": "a battleship game served on a socket.io express server",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/idress-b/battleship.git"
+  },
+  "author": "idress benchellali",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/idress-b/battleship/issues"
+  },
+  "homepage": "https://github.com/idress-b/battleship#readme",
+  "dependencies": {
+    "express": "^4.19.2",
+    "socket.io": "^4.7.5"
+  }
+}
