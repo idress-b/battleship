@@ -1,12 +1,30 @@
+body{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+}
+
 .board{
     display: grid;
     grid-template-columns: repeat(10, 1fr);
     grid-template-rows: repeat(10, 1fr);
     width:fit-content;
+    height: fit-content;
+    margin: 30px;
 }
 
-.board div{
+.board div, .panel div{
     border: 1px solid black;
+}
+
+.panel{
+    margin:30px;
+}
+
+.panel div {
+ width: 25px;
+ height:25px;
+ margin-top: 10px;
 }
 
 .project:hover{
@@ -15,4 +33,38 @@
 
 .blue{
     background-color: rgba(0, 255, 255, 0.32);
+}
+.red{
+    background-color: rgba(255, 0, 0, 0.32);
+}
+
+.boat-selected-panel div{
+    background-color: rgb(178, 178, 187);
+
+}
+.selected{
+    background-color: rgb(178, 178, 187);
+}
+
+.ship{
+    
+    display:flex;
+}
+
+.touched{
+    background-color: rgba(208, 12, 12, 0.657);
+}
+
+.sinked{
+    background-color: rgb(233, 16, 16);
+}
+.missed{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+#join-game{
+    width: fit-content;
+    padding: 15px;
+    height: fit-content;
+    display: none;
 }

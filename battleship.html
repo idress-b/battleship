@@ -4,10 +4,17 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <title>Document</title>
+    <title>BattleShip</title>
+    <script src="/socket.io/socket.io.js"></script>
   </head>
   <body>
-    <div class="board"></div>
+    <div id="my-board" class="board"></div>
+    <div class="panel">
+      <button id="orientation">horizontal</button>
+      <p>Liste des navires</p>
+    </div>
+    <div id="opponent-board" class="board"></div>
+    <button id="join-game">débuter la partie</button>
     <script src="index.js"></script>
   </body>
 </html>
