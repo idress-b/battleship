@@ -227,6 +227,6 @@ document.addEventListener("DOMContentLoaded", () => {
     const cell = document.querySelector(
       `#opponent-board div[data-index="${index}"]`
     );
-    cell.textContent = "@";
+    cell.textContent = "*";
   });
 });
